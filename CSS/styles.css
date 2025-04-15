@@ -24,6 +24,59 @@ a:link {
   background-size: cover;
   background-position: center;
   border-radius: 0px 90px 90px 0px;
+  padding-top: 63px;
+  padding-left: 80px;
+  color: #ffffff;
+  display: flex;
+}
+.para-travel {
+  font-weight: 700;
+  font-size: 36px;
+}
+.get-ready {
+  width: 310px;
+  height: 83px;
+  font-weight: 700;
+  font-size: 64px;
+  margin-top: 193px;
+}
+.para-discription {
+  width: 510px;
+  height: 186px;
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 43px;
+}
+button {
+  width: 275px;
+  height: 100px;
+  background-color: #fc5710;
+  border-radius: 20px;
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 700;
+}
+.point-line {
+  position: relative;
+  width: 234px;
+  height: 530px;
+  /* border: 2px solid salmon; */
+  margin-top: 200px;
+}
+.point-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.line {
+  position: absolute;
+  top: 48px;
+  left: 15px;
+}
+.point-2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 /* ........დანარჩენი ინფოს ნაწილი (მეორე მხარე) */
@@ -84,7 +137,7 @@ a:link {
   background-color: #ebe8e8;
   margin-top: 10px;
 }
-h1 {
+h2 {
   height: 52px;
   font-size: 40px;
   font-weight: 700;
@@ -118,7 +171,7 @@ h1 {
 .div-pictures {
   margin-top: 70px;
   display: flex;
-  column-gap: 40px;
+  column-gap: 20px;
 }
 
 .place {
@@ -146,7 +199,7 @@ h3 {
   font-weight: 700;
   margin-bottom: 10px;
 }
-p {
+.para-distance {
   font-size: 16px;
   font-weight: 700;
 }
