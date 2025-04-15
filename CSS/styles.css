@@ -1,0 +1,174 @@
+/* ........ მთელი გვერდი..... */
+body {
+  @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+  font-family: "DM Sans", sans-serif;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+}
+
+.main-content {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+/* .........მთავარი სურათის ნაწილი....... */
+.main-image {
+  width: 1120px;
+  height: 100vh;
+  background-image: url(../images/main-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0px 90px 90px 0px;
+}
+
+/* ........დანარჩენი ინფოს ნაწილი (მეორე მხარე) */
+
+.main-info {
+  height: 100vh;
+  width: 870px;
+  /* background-color: beige; */
+  padding-top: 97px;
+  padding-right: 28px;
+  padding-bottom: 98px;
+  padding-left: 151px;
+}
+
+/* ..........ნავიგაცია...... */
+.header-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ul-list {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 49px;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+/* ...........ძებნა............. */
+.input-form {
+  margin-top: 133px;
+  background-color: transparent;
+}
+.div-search {
+  position: relative;
+}
+.input-search {
+  border: none;
+  width: 100%;
+  font-size: 24px;
+  font-weight: 400;
+  outline: none;
+  color: #bab9b9;
+  padding-left: 42px;
+}
+::placeholder {
+  color: #bab9b9;
+}
+.search-icon {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 0px;
+}
+.div-line {
+  height: 5px;
+  width: 100%;
+  background-color: #ebe8e8;
+  margin-top: 10px;
+}
+h1 {
+  height: 52px;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 37px;
+  margin-bottom: 37px;
+}
+.li-experience {
+  position: relative;
+  color: #fc5710 !important;
+}
+
+.li-experience::before {
+  position: absolute;
+  content: "";
+  height: 5px;
+  width: 0%;
+  bottom: -10px;
+  left: 0px;
+  background-color: #fc5710;
+  transition: 0.3s;
+}
+.li-places,
+.li-housing {
+  font-weight: 500 !important;
+}
+.li-experience:hover::before {
+  width: 100%;
+}
+
+/* ........სურათები.......... */
+.div-pictures {
+  margin-top: 70px;
+  display: flex;
+  column-gap: 40px;
+}
+
+.place {
+  position: relative;
+  width: 201px;
+  height: 301px;
+  border-radius: 20px;
+  background-image: url(../images/image-1.png);
+}
+.text-wrapper {
+  position: absolute;
+  width: 100%;
+  bottom: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+.point-para {
+  column-gap: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+p {
+  font-size: 16px;
+  font-weight: 700;
+}
+.final {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 35px;
+}
+.image-2 {
+  background-image: url(../images/image-2.png);
+}
+.image-3 {
+  background-image: url(../images/image-3.jpg);
+}
+.direction {
+  width: 55px;
+  display: flex;
+  justify-content: space-between;
+}
+.para-sea-all {
+  font-size: 24px;
+  font-weight: 400;
+  color: #b1aeae !important;
+}
